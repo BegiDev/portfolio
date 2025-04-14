@@ -33,7 +33,7 @@ export const metadata: Metadata  = {
     twitter: {
       card: "summary_large_image",
       title: "Abduhamidov Begzod | Portfolio",
-      description: "Frontend portfolio by Abduhamidov Begzod, built with Next.js and React.",
+      description: "Welcome to the personal portfolio of Abduhamidov Begzod — a passionate and creative Frontend Developer.",
       site: "@begidev",
       creator: "@begidev",
       images: ["https://begidev.vercel.app/begidev.webp"],
