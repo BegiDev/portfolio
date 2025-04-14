@@ -1,0 +1,6 @@
+# robots.txt - Abduhamidov Begzod Portfolio
+
+User-agent: *
+Allow: /
+
+Sitemap: https://begidev.vercel.app/sitemap.xml

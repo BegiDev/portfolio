@@ -1,0 +1,47 @@
+{
+  "footer": "Barcha huquqlar himoyalangan.",
+  "intro1": "Salom, men ",
+  "intro": "Men <1>front-end dasturchiman</1>, <3>Next.js</3> va <5>TypeScript</5> texnologiyalarida ishlayman. Ijtimoiy tarmoqlar yoki ushbu manzil orqali bog‘lanishingiz mumkin: <7>abdukhamidov0904@gmail.com</7>",
+  "title": "Tajriba",
+  "position": "Front-End Dasturchi — Freelance",
+  "period": "Dekabr 2023 – Hozirgacha",
+  "duration": "1 yil+",
+  "point1": "Responsiv va interaktiv web ilovalar yaratish (React, Next.js, TypeScript).",
+  "point2": "UI/UX dizaynni kodga aylantirish va mijozlar ehtiyojiga moslashtirish.",
+  "point3": "Tailwind CSS & Shadcn orqali zamonaviy komponentlar ishlab chiqish.",
+  "point4": "Web sahifalarni SEO va performansga mos optimallashtirish.",
+  "projects": [
+    {
+      "title": "Cupon Finder",
+      "description": "This project helps you find coupons. You can find various promotional codes for discounts on the site.",
+      "liveLink": "https://cuponuz.vercel.app",
+      "repoLink": "https://github.com/BegiDev/coupon",
+      "image": "/cupon.png",
+      "technologies": ["React", "Typescript", "Tailwind CSS", "Shadcn", "Firebase"]
+    },
+    {
+      "title": "BlockDrop",
+      "description": "This project is based on blockchain technology for securely transferring files.",
+      "liveLink": "https://blockdrop.ngrok.dev",
+      "repoLink": "https://github.com/BegiDev/blockdrop",
+      "image": "/block.jpg",
+      "technologies": ["Python", "Streamlit"]
+    },
+    {
+      "title": "PeroTravel",
+      "description": "This project is developed for the tourism industry (made based on request).",
+      "liveLink": "https://shoxjahoon7.netlify.app/",
+      "repoLink": "https://github.com/BegiDev/pero-travel",
+      "image": "/pero.png",
+      "technologies": ["React.js", "Tailwind CSS"]
+    },
+    {
+      "title": "Justice Box",
+      "description": "This project automates the 'Justice Box' at school. It has already helped solve several problems (500+ users).",
+      "liveLink": "https://adolat-qutisi.vercel.app/",
+      "repoLink": "https://github.com/BegiDev/justice-box",
+      "image": "/adolat.png",
+      "technologies": ["Next.js", "Tailwind CSS", "Shadcn"]
+    }
+  ]
+}

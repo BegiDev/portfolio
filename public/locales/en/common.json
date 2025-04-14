@@ -1,0 +1,63 @@
+{
+  "footer": "All rights reserved.",
+  "intro1": "Hi, I’m ",
+  "intro": "I’m a <1>front-end developer</1> specializing in <3>Next.js</3> and <5>TypeScript</5>. Feel free to reach out via social media or at: <7>abdukhamidov0904@gmail.com</7>",
+  "title": "Experience",
+  "position": "Front-End Developer — Freelance",
+  "period": "Dec 2023 – Present",
+  "duration": "1 year+",
+  "point1": "Creating responsive and interactive web apps (React, Next.js, TypeScript).",
+  "point2": "Translating UI/UX designs into code and customizing for client needs.",
+  "point3": "Building modern components using Tailwind CSS & Shadcn.",
+  "point4": "Optimizing web pages for SEO and performance.",
+  "projects": [
+    {
+      "title": "Cupon Finder",
+      "description": "Bu loyha cupon topish uchun qilingan, ya`ni sitedan discount uchun turli xil promocodelar topishingiz mumkin.",
+      "liveLink": "https://cuponuz.vercel.app",
+      "repoLink": "https://github.com/BegiDev/coupon",
+      "image": "/cupon.png",
+      "technologies": [
+        "React",
+        "Typescript",
+        "Tailwind CSS",
+        "Shadcn",
+        "Firebase"
+      ]
+    },
+    {
+      "title": "BlockDrop",
+      "description": "Bu loyha blockchainga asoslangan bo`lib filearni xavfsiz jo`natish uchun mo`ljallangan.",
+      "liveLink": "https://blockdrop.ngrok.dev",
+      "repoLink": "https://github.com/BegiDev/blockdrop",
+      "image": "/block.jpg",
+      "technologies": [
+        "Python",
+        "Streamlit"
+      ]
+    },
+    {
+      "title": "PeroTravel",
+      "description": "Bu loyha turizm uchun qilingan(buyurtma asosida qilingan)",
+      "liveLink": "https://shoxjahoon7.netlify.app/",
+      "repoLink": "https://github.com/BegiDev/pero-travel",
+      "image": "/pero.png",
+      "technologies": [
+        "React.js",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Adolat qutisi",
+      "description": "Bu loyha orqali maktabdagi adolat qutisini avtomatlashtirganman, hozirda bu loyha bir necha muammolarni yechilishiga sababchi bo`ldi(500+ user).",
+      "liveLink": "https://adolat-qutisi.vercel.app/",
+      "repoLink": "https://github.com/BegiDev/justice-box",
+      "image": "/adolat.png",
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS",
+        "Shadcn"
+      ]
+    }
+  ]
+}
