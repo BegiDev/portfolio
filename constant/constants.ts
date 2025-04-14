@@ -1,7 +1,7 @@
-import cupon from '/cupon.webp'
-import block from '/block.webp'
-import pero from '/pero.webp'
-import adolat from '/adolat.webp'
+import cupon from 'public/cupon.webp'
+import block from 'public/block.webp'
+import pero from 'public/pero.webp'
+import adolat from 'public/adolat.webp'
 
 export const projects = [
     {
