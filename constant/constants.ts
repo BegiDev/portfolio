@@ -1,10 +1,15 @@
+import cupon from '/cupon.webp'
+import block from '/block.webp'
+import pero from '/pero.webp'
+import adolat from '/adolat.webp'
+
 export const projects = [
     {
         title: 'Cupon Finder',
         description: 'Bu loyha cupon topish uchun qilingan, ya`ni sitedan discount uchun turli xil promocodelar topishingiz mumkin.',
         liveLink: 'https://cuponuz.vercel.app',
         repoLink: 'https://github.com/BegiDev/coupon',
-        image: '/cupon.webp',
+        image: cupon,
         technologies: ['React', 'Typescript', 'Tailwind CSS', 'Shadcn', 'Firebase']
     },
     {
@@ -12,7 +17,7 @@ export const projects = [
         description: 'Bu loyha blockchainga asoslangan bo`lib filearni xavfsiz jo`natish uchun mo`ljallangan.',
         liveLink: 'https://blockdrop.ngrok.dev',
         repoLink: 'https://github.com/BegiDev/blockdrop',
-        image: '/block.webp',
+        image: block,
         technologies: ['Python', 'Streamlit']
     },
     {
@@ -20,7 +25,7 @@ export const projects = [
         description: 'Bu loyha turizm uchun qilingan(buyurtma asosida qilingan)',
         liveLink: 'https://shoxjahoon7.netlify.app/',
         repoLink: 'https://github.com/BegiDev/pero-travel',
-        image: '/pero.webp', 
+        image: pero, 
         technologies: ['React.js', 'Tailwind CSS'] 
     },
     {
@@ -28,7 +33,7 @@ export const projects = [
         description: 'Bu loyha orqali maktabdagi adolat qutisini avtomatlashtirganman, hozirda bu loyha bir necha muammolarni yechilishiga sababchi bo`ldi(500+ user).',
         liveLink: 'https://adolat-qutisi.vercel.app/',
         repoLink: 'https://github.com/BegiDev/justice-box',
-        image: '/adolat.webp',
+        image: adolat,
         technologies: ['Next.js', 'Tailwind CSS', 'Shadcn'] 
     }
 ];
