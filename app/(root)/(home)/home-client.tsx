@@ -1,11 +1,13 @@
 'use client';
 
-import Article from '@/components/card/article';
-import Experience from '@/components/card/experience';
-import Projects from '@/components/shared/projects';
 import { Github, Instagram, Linkedin, Twitter } from 'lucide-react';
 import React from 'react';
 import { useTranslation, Trans } from 'react-i18next';
+import dynamic from 'next/dynamic';
+
+const Article = dynamic(() => import('@/components/card/article'));
+const Experience = dynamic(() => import('@/components/card/experience'));
+const ProjectCard = dynamic(() => import('@/components/card/project-card'));
 
 export default function HomeClientPage() {
   const { t } = useTranslation('common');
@@ -41,7 +43,7 @@ export default function HomeClientPage() {
       </div>
 
       <div className='mt-[80px]'>
-        <Projects />
+        <ProjectCard />
       </div>
 
       <div className='mt-[80px]'>

@@ -11,11 +11,3 @@ export interface ProjectCardProps {
 	technologies: string[]
 }
 
-export interface Project {
-	title: string;
-	description: string;
-	liveLink: string;
-	repoLink: string;
-	image: string;
-	technologies: string[];
-}

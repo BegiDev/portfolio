@@ -1,11 +1,14 @@
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 import { articles } from "@/constant/constants"
+import { useTranslation } from "react-i18next";
 
 export default function Article() {
+    const { t } = useTranslation();
+
     return (
         <div>
-            <h1 className="text-4xl font-bold mb-10">Articles</h1>
+            <h1 className="text-4xl font-bold mb-10">{t("articles")}</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 {articles.map((article, index) => (

@@ -10,6 +10,8 @@
   "point2": "UI/UX dizaynni kodga aylantirish va mijozlar ehtiyojiga moslashtirish.",
   "point3": "Tailwind CSS & Shadcn orqali zamonaviy komponentlar ishlab chiqish.",
   "point4": "Web sahifalarni SEO va performansga mos optimallashtirish.",
+  "project": "Loyhalar",
+  "articles": "Maqolalar",
   "projects": [
     {
       "title": "Cupon Finder",

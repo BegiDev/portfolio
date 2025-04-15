@@ -1,12 +1,10 @@
-import CuponImg from "../public/cupon.webp"
-
 export const projects = [
     {
         title: 'Cupon Finder',
         description: 'Bu loyha cupon topish uchun qilingan, ya`ni sitedan discount uchun turli xil promocodelar topishingiz mumkin.',
         liveLink: 'https://cuponuz.vercel.app',
         repoLink: 'https://github.com/BegiDev/coupon',
-        image: CuponImg,
+        image: '/cupon.webp',
         technologies: ['React', 'Typescript', 'Tailwind CSS', 'Shadcn', 'Firebase']
     },
     {
