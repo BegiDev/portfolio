@@ -26,12 +26,12 @@ const ProjectCard = () => {
           />
 
           <CardHeader>
-            <CardTitle className="text-xl text-primary">Cupon Finder</CardTitle>
+            <CardTitle className="text-xl text-primary">Coupon Finder</CardTitle>
           </CardHeader>
 
           <CardContent className="space-y-4">
             <p className="text-sm text-gray-600 dark:text-gray-300">
-              Bu loyha cupon topish uchun qilingan, ya`ni sitedan discount uchun turli xil promocodelar topishingiz mumkin.
+              This project is designed to find coupons, allowing you to discover various promotional codes for discounts from different websites.
             </p>
 
             <div className="flex flex-wrap gap-2">
@@ -70,7 +70,7 @@ const ProjectCard = () => {
 
           <CardContent className="space-y-4">
             <p className="text-sm text-gray-600 dark:text-gray-300">
-              Bu loyha blockchainga asoslangan bo`lib filearni xavfsiz jo`natish uchun mo`ljallangan.
+              This project is based on blockchain technology and is designed for securely sending files.
             </p>
 
             <div className="flex flex-wrap gap-2">
@@ -106,7 +106,7 @@ const ProjectCard = () => {
 
           <CardContent className="space-y-4">
             <p className="text-sm text-gray-600 dark:text-gray-300">
-              Bu loyha turizm uchun qilingan(buyurtma asosida qilingan).
+              This project was developed for tourism purposes (based on order).
             </p>
 
             <div className="flex flex-wrap gap-2">
@@ -137,12 +137,12 @@ const ProjectCard = () => {
           />
 
           <CardHeader>
-            <CardTitle className="text-xl text-primary">Adolat qutisi</CardTitle>
+            <CardTitle className="text-xl text-primary">Justice Box</CardTitle>
           </CardHeader>
 
           <CardContent className="space-y-4">
             <p className="text-sm text-gray-600 dark:text-gray-300">
-              Bu loyha orqali maktabdagi adolat qutisini avtomatlashtirganman, hozirda bu loyha bir necha muammolarni yechilishiga sababchi bo`ldi(500+ user).
+              This project automates the justice box in schools, solving several issues (500+ users).
             </p>
 
             <div className="flex flex-wrap gap-2">

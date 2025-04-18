@@ -15,51 +15,35 @@
   "projects": [
     {
       "title": "Cupon Finder",
-      "description": "Bu loyha cupon topish uchun qilingan, ya`ni sitedan discount uchun turli xil promocodelar topishingiz mumkin.",
+      "description": "This project helps you find coupons. You can find various promotional codes for discounts on the site.",
       "liveLink": "https://cuponuz.vercel.app",
       "repoLink": "https://github.com/BegiDev/coupon",
       "image": "/cupon.png",
-      "technologies": [
-        "React",
-        "Typescript",
-        "Tailwind CSS",
-        "Shadcn",
-        "Firebase"
-      ]
+      "technologies": ["React", "Typescript", "Tailwind CSS", "Shadcn", "Firebase"]
     },
     {
       "title": "BlockDrop",
-      "description": "Bu loyha blockchainga asoslangan bo`lib filearni xavfsiz jo`natish uchun mo`ljallangan.",
+      "description": "This project is based on blockchain technology for securely transferring files.",
       "liveLink": "https://blockdrop.ngrok.dev",
       "repoLink": "https://github.com/BegiDev/blockdrop",
       "image": "/block.jpg",
-      "technologies": [
-        "Python",
-        "Streamlit"
-      ]
+      "technologies": ["Python", "Streamlit"]
     },
     {
       "title": "PeroTravel",
-      "description": "Bu loyha turizm uchun qilingan(buyurtma asosida qilingan)",
+      "description": "This project is developed for the tourism industry (made based on request).",
       "liveLink": "https://shoxjahoon7.netlify.app/",
       "repoLink": "https://github.com/BegiDev/pero-travel",
       "image": "/pero.png",
-      "technologies": [
-        "React.js",
-        "Tailwind CSS"
-      ]
+      "technologies": ["React.js", "Tailwind CSS"]
     },
     {
-      "title": "Adolat qutisi",
-      "description": "Bu loyha orqali maktabdagi adolat qutisini avtomatlashtirganman, hozirda bu loyha bir necha muammolarni yechilishiga sababchi bo`ldi(500+ user).",
+      "title": "Justice Box",
+      "description": "This project automates the 'Justice Box' at school. It has already helped solve several problems (500+ users).",
       "liveLink": "https://adolat-qutisi.vercel.app/",
       "repoLink": "https://github.com/BegiDev/justice-box",
       "image": "/adolat.png",
-      "technologies": [
-        "Next.js",
-        "Tailwind CSS",
-        "Shadcn"
-      ]
+      "technologies": ["Next.js", "Tailwind CSS", "Shadcn"]
     }
   ]
 }
