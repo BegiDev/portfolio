@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "frontend developer", "front-end developer", "React developer", 
     "Next.js developer", "JavaScript", "TypeScript", 
     "portfolio developer", "developer from Uzbekistan", "personal website", 
-    "Abduhamidov", "begzod uz", "abduhamidov portfolio", "begidev.uz"
+    "Abduhamidov", "begzod uz", "abduhamidov portfolio", "begidev.uz", "begidev.vercel.app"
   ],
   authors: [
     { name: "Abduhamidov Begzod", url: "https://github.com/BegiDev" }

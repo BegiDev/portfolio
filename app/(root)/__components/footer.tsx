@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
     <footer className="pt-10">
       <div>
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="mb-3 md:mb-6 md:mb-0">
+          <div className="mb-3 md:mb-2 md:mb-0">
             <h2 className="text-2xl font-bold md:text-start text-center">Begzod`s portfolio</h2>
             <p className="text-gray-400 mt-0 md:mt-2">Front-End Developer | Next.js & TypeScript</p>
           </div>
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-600 pt-3 md:pt-6 mt-3 text-center text-sm text-gray-400">
+        <div className="border-t border-gray-400 pt-3 md:pt-6 mt-3 text-center text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} Abduhamidov Begzod. {t('footer')}</p>
         </div>
       </div>

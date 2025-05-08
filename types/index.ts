@@ -11,3 +11,16 @@ export interface ProjectCardProps {
 	technologies: string[]
 }
 
+export interface BlogCardProps {
+	title: string;
+	description: string;
+	image: string;
+	date: string;
+	slug: string;
+}
+
+export type PageProps = {
+	params: {
+		slug: string
+	}
+}

@@ -18,7 +18,7 @@ function ModeToggle() {
             onClick={() => setTheme("light")}
             className="w-[38px] h-[38px] md:w-[45px] md:h-[45px] border-2 rounded-full flex items-center justify-center"
         >
-            <Sun size={40} />
+            <Sun size={20} />
         </Button>
 
     ) : (
@@ -28,7 +28,7 @@ function ModeToggle() {
             onClick={() => setTheme("dark")}
             className="w-[38px] h-[38px] md:w-[45px] md:h-[45px] border-2 rounded-full flex items-center justify-center"
         >
-            <Moon size={40} />
+            <Moon size={20} />
         </Button>
 
     );

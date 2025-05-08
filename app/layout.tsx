@@ -5,6 +5,7 @@ import { ChildProps } from "@/types";
 import type { Metadata } from "next";
 import React from "react";
 import Head from "next/head";
+import { Poppins } from 'next/font/google'
 
 export const metadata: Metadata = {
   title: "Begzod Abduhamidov",
@@ -58,6 +59,12 @@ export const metadata: Metadata = {
   },
 };
 
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '600'],
+  variable: '--font-poppins',
+})
+
 export default function RootLayout({ children }: ChildProps) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -70,7 +77,7 @@ export default function RootLayout({ children }: ChildProps) {
 
         <meta name="twitter:image" content="https://begidev.vercel.app/begidev.webp" />
       </Head>
-      <body>
+      <body className={`${poppins.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

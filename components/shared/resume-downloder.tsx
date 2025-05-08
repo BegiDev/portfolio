@@ -16,7 +16,7 @@ export default function ResumeDownload() {
       className="w-[38px] h-[38px] md:w-[45px] md:h-[45px] border-2 rounded-full flex items-center justify-center"
       onClick={handleDownload}
     >
-      <Download />
+      <Download size={18} />
     </div>
   );
 }
