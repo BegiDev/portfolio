@@ -164,6 +164,40 @@ const ProjectCard = () => {
         </Card>
         <Card className="transition-shadow hover:shadow-md dark:bg-muted bg-white overflow-hidden">
           <Image
+            src='/smartnote.webp'
+            alt='Digital'
+            width={600}
+            height={300}
+            loading='lazy'
+            className="w-full h-[200px] object-cover"
+          />
+
+          <CardHeader>
+            <CardTitle className="text-xl text-primary">SmartNote</CardTitle>
+          </CardHeader>
+
+          <CardContent className="space-y-4">
+            <p className="text-sm text-gray-600 dark:text-gray-300">
+            A sleek Chrome extension to capture, tag, and organize web content effortlessly. Perfect for students and creators seeking a seamless, productive note-taking experience.
+            </p>
+
+            <div className="flex flex-wrap gap-2">
+              <Badge className="text-xs text-gray-700 dark:text-gray-200 bg-primary/30">JavaScript</Badge>
+            </div>
+
+            <div className="flex gap-4">
+              <Link href='http://localhost:5173/' target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-sm text-blue-600 hover:underline">
+                <ExternalLink size={16} /> Live Demo
+              </Link>
+
+              <Link href='https://github.com/BegiDev/SmartNote' target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-300 hover:underline">
+                <Github size={16} /> Code
+              </Link>
+            </div>
+          </CardContent>
+        </Card>
+        <Card className="transition-shadow hover:shadow-md dark:bg-muted bg-white overflow-hidden">
+          <Image
             src='/mosque.webp'
             alt='Adolat qutisi'
             width={600}
