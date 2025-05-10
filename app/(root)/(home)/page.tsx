@@ -49,6 +49,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://begidev.vercel.app/",
   },
+  verification: {
+    google: 'Y-GKnMOwm7Ie61GTia9YWcV2E0RhTLQn7cCfQH_ahlM',
+  },
 };
 
 export default function Page() {
